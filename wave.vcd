@@ -1,0 +1,174 @@
+$date
+	Sat Oct 17 19:02:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_test $end
+$var wire 8 ! result [7:0] $end
+$var wire 1 " cout $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$var reg 3 % op [2:0] $end
+$scope module dut $end
+$var wire 8 & a [7:0] $end
+$var wire 8 ' b [7:0] $end
+$var wire 3 ( op [2:0] $end
+$var wire 8 ) out_s [7:0] $end
+$var wire 8 * out_a [7:0] $end
+$var wire 1 + carry_s $end
+$var wire 1 , carry_a $end
+$var reg 1 " cout $end
+$var reg 8 - result [7:0] $end
+$scope module add $end
+$var wire 8 . a [7:0] $end
+$var wire 8 / b [7:0] $end
+$var wire 8 0 result [7:0] $end
+$var wire 1 , cout $end
+$upscope $end
+$scope module sub $end
+$var wire 8 1 a [7:0] $end
+$var wire 8 2 b [7:0] $end
+$var wire 8 3 result [7:0] $end
+$var wire 1 + cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11110110 3
+b10100 2
+b1010 1
+b11110 0
+b10100 /
+b1010 .
+b11110 -
+0,
+1+
+b11110 *
+b11110110 )
+b0 (
+b10100 '
+b1010 &
+b0 %
+b10100 $
+b1010 #
+0"
+b11110 !
+$end
+#10000
+1"
+b0 !
+b0 -
+b0 *
+b0 0
+1,
+b1 $
+b1 '
+b1 /
+b1 2
+b11111110 )
+b11111110 3
+0+
+b11111111 #
+b11111111 &
+b11111111 .
+b11111111 1
+#20000
+b11110 *
+b11110 0
+0,
+0"
+b1010 !
+b1010 -
+b1 %
+b1 (
+b1010 $
+b1010 '
+b1010 /
+b1010 2
+b1010 )
+b1010 3
+b10100 #
+b10100 &
+b10100 .
+b10100 1
+#30000
+b10110 *
+b10110 0
+b1000 !
+b1000 -
+b10 %
+b10 (
+b10 )
+b10 3
+b1100 #
+b1100 &
+b1100 .
+b1100 1
+#40000
+b1110 !
+b1110 -
+b11 %
+b11 (
+#50000
+b110 !
+b110 -
+b100 %
+b100 (
+#60000
+b101 *
+b101 0
+b1010 !
+b1010 -
+b101 %
+b101 (
+b0 $
+b0 '
+b0 /
+b0 2
+b101 )
+b101 3
+0+
+b101 #
+b101 &
+b101 .
+b101 1
+#70000
+b1000 *
+b1000 0
+b100 !
+b100 -
+b110 %
+b110 (
+b1000 )
+b1000 3
+b1000 #
+b1000 &
+b1000 .
+b1000 1
+#80000
+b10100 *
+b10100 0
+b1 !
+b1 -
+b111 %
+b111 (
+b1010 $
+b1010 '
+b1010 /
+b1010 2
+b0 )
+b0 3
+b1010 #
+b1010 &
+b1010 .
+b1010 1
+#90000
